@@ -1,0 +1,127 @@
+/* body {
+  background-color: #f5f3ef;
+}
+
+.banner {
+  background-color: #ab8e8e;
+  height: 10em;
+  color: #4b4141;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url(https://i.pinimg.com/736x/46/82/16/4682167c64409aa84b2d490e5f461647.jpg);
+  height: 50em;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main label {
+  display: block;
+}
+
+.main-center {
+  text-align: center;
+} */
+
+.banner {
+  background-color: #ab8e8e;
+  height: 10em;
+  color: #4b4141;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url(https://i.pinimg.com/736x/46/82/16/4682167c64409aa84b2d490e5f461647.jpg);
+  height: 50em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.container {
+  width: 300px;
+  backdrop-filter: blur(8px);
+  background: rgb(66 61 61 / 20%);
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.input-area {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 15em;
+}
+
+.input-area button {
+  margin-left: 10px;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: rgba(255, 255, 255, 0.4);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+li span {
+  flex: 1;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+button {
+  margin-left: 10px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #7b6666;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
